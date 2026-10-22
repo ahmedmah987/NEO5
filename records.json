@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T22:07:42Z",
+  "generated": "2026-10-22T23:58:28Z",
   "problems": {
     "circle-packing": {
       "n26": {
@@ -15,6 +15,13 @@
         "holder": "ahmedmah987",
         "file": "submissions/circle-packing/n32/starter-baseline.json",
         "best_known_literature": "2.93957277120632294"
+      },
+      "n450": {
+        "status": "record",
+        "best_verified": "11.285905717986",
+        "holder": "ahmedmah987",
+        "file": "submissions/circle-packing/n450/ahmedmah987-2026-10-23.json",
+        "best_known_literature": "11.285552024486"
       }
     },
     "kissing-number": {
@@ -99,7 +106,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-9.2377.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0002",
@@ -113,7 +120,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-19.9325.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0003",
@@ -127,7 +134,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-24.2056.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0004",
@@ -141,7 +148,7 @@
             "satellite_of": "O0003",
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-24.3344.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0005",
@@ -155,7 +162,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-29.6021.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0006",
@@ -169,7 +176,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-34.8022.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0007",
@@ -183,7 +190,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-36.7714.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0008",
@@ -195,7 +202,7 @@
             "satellite_of": "O0001",
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-36.9090.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0009",
@@ -207,7 +214,7 @@
             "satellite_of": "O0001",
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-36.9400.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0010",
@@ -221,7 +228,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-39.0752.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0011",
@@ -235,7 +242,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-39.6448.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0012",
@@ -249,7 +256,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-49.6301.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0013",
@@ -263,7 +270,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-49.6432.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0014",
@@ -277,7 +284,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-53.8569.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0015",
@@ -291,7 +298,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-55.2035.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0016",
@@ -305,7 +312,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-57.7280.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0017",
@@ -319,7 +326,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-64.4455.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0018",
@@ -331,7 +338,7 @@
             "satellite_of": "O0001",
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-64.6517.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0019",
@@ -343,7 +350,7 @@
             "satellite_of": "O0001",
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-64.6554.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0020",
@@ -357,7 +364,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-68.6734.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0021",
@@ -371,7 +378,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-73.6559.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           },
           {
             "id": "O0022",
@@ -385,7 +392,7 @@
             "satellite_of": null,
             "found_by": "ahmedmah987",
             "file": "submissions/three-body-orbits/equal-mass/tstar-79.2555.json",
-            "date": "9999"
+            "date": "2026-10-22T22:07:59+00:00"
           }
         ]
       }

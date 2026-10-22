@@ -42,6 +42,7 @@ _Place n circles in a unit square, without overlap, so their radii add up to as 
 |---|---|---|---|---|
 | n = 26 | 2.6359830849176068 ([AlphaEvolve V2 (Georgiev, Gómez-Serrano, Tao, Wagner), 2025](https://arxiv.org/abs/2511.02864)) | 2.630713197527 | [@ahmedmah987](https://github.com/ahmedmah987) · Claude, solvers/circle_packing.py | below best known (by 0.005269887) |
 | n = 32 | 2.93957277120632294 ([AlphaEvolve V2 (Georgiev, Gómez-Serrano, Tao, Wagner), 2025](https://arxiv.org/abs/2511.02864)) | 2.930479493591 | [@ahmedmah987](https://github.com/ahmedmah987) · Claude, solvers/circle_packing.py | below best known (by 0.009093278) |
+| n = 450 | 11.285552024486 ([Jean-René Denoual (Packomania), 2026](https://packomania.com/csqv/csqv.html)) | 11.285905717986 | [@ahmedmah987](https://github.com/ahmedmah987) · Claude, solvers/packomania_vns.py | **world record** |
 
 ### [Kissing numbers](problems/kissing-number/)
 _How many unit spheres can touch one unit sphere in d dimensions?_
@@ -71,7 +72,7 @@ _Find periodic solutions of Newton's three-body problem_
 <!-- HALL:START -->
 | Contributor | Records held or tied | Atlas orbits | AI-assisted |
 |---|---|---|---|
-| @ahmedmah987 | 1 | 22 | yes |
+| @ahmedmah987 | 2 | 22 | yes |
 <!-- HALL:END -->
 
 ## Submission format

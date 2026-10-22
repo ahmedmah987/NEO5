@@ -26,6 +26,17 @@
         "source": "https://arxiv.org/abs/2511.02864",
         "note": "Published coordinates are tight to double precision."
       }
+    },
+    "n450": {
+      "label": "n = 450",
+      "n": 450,
+      "best_known": {
+        "value": "11.285552024486",
+        "holder": "Jean-René Denoual (Packomania)",
+        "year": 2026,
+        "source": "https://packomania.com/csqv/csqv.html",
+        "note": "Packomania uses the square [-1/2, 1/2]^2; sums of radii are identical."
+      }
     }
   }
 }
