@@ -1,0 +1,47 @@
+# After a merge, re-verify every submission from scratch and refresh the record tables.
+name: records
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "submissions/**"
+      - "problems/**"
+      - "unsolved/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: records
+  cancel-in-progress: false
+
+jobs:
+  records:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # dates of first submission come from git history
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - run: pip install -r requirements.txt
+
+      - name: Re-verify everything and rebuild the tables
+        run: python -m unsolved records --write
+
+      - name: Commit the refreshed tables
+        run: |
+          if git diff --quiet README.md records.json; then
+            echo "records unchanged"; exit 0
+          fi
+          git config user.name "unsolved-referee"
+          git config user.email "unsolved-referee@users.noreply.github.com"
+          git add README.md records.json
+          git commit -m "Update record tables"
+          git push

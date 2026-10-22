@@ -1,0 +1,15 @@
+[project]
+name = "unsolved"
+version = "0.1.0"
+description = "An open record book for unsolved problems, refereed by code."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy"]
+
+[project.scripts]
+unsolved = "unsolved.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

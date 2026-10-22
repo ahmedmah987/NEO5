@@ -1,0 +1,56 @@
+{
+  "slug": "kissing-number",
+  "title": "Kissing numbers",
+  "tagline": "How many unit spheres can touch one unit sphere in d dimensions?",
+  "kind": "max",
+  "instance_header": "Dimension",
+  "instances": {
+    "d8": {
+      "label": "d = 8",
+      "d": 8,
+      "best_known": {"value": "240", "holder": "E8 lattice; optimal (Levenshtein; Odlyzko & Sloane)", "year": 1979,
+                     "source": "https://cohn.mit.edu/kissing-numbers/"}
+    },
+    "d9": {
+      "label": "d = 9",
+      "d": 9,
+      "best_known": {"value": "306", "holder": "Leech & Sloane", "year": 1971, "source": "https://cohn.mit.edu/kissing-numbers/"}
+    },
+    "d10": {
+      "label": "d = 10",
+      "d": 10,
+      "best_known": {"value": "510", "holder": "Ganzhinov", "year": 2022, "source": "https://arxiv.org/abs/2207.08266"}
+    },
+    "d11": {
+      "label": "d = 11",
+      "d": 11,
+      "best_known": {"value": "604", "holder": "EinsteinArena agents (Bianchi, Kwon, Pappu, Zou)", "year": 2026,
+                     "source": "https://arxiv.org/abs/2606.10402"}
+    },
+    "d12": {
+      "label": "d = 12",
+      "d": 12,
+      "best_known": {"value": "841", "holder": "Takhanov, Assylbekov, Yun", "year": 2026, "source": "https://arxiv.org/abs/2606.18984"}
+    },
+    "d13": {
+      "label": "d = 13",
+      "d": 13,
+      "best_known": {"value": "1154", "holder": "Zinoviev & Ericson", "year": 1999, "source": "https://cohn.mit.edu/kissing-numbers/"}
+    },
+    "d14": {
+      "label": "d = 14",
+      "d": 14,
+      "best_known": {"value": "1932", "holder": "Ganzhinov", "year": 2022, "source": "https://arxiv.org/abs/2207.08266"}
+    },
+    "d15": {
+      "label": "d = 15",
+      "d": 15,
+      "best_known": {"value": "2564", "holder": "Leech & Sloane", "year": 1971, "source": "https://cohn.mit.edu/kissing-numbers/"}
+    },
+    "d16": {
+      "label": "d = 16",
+      "d": 16,
+      "best_known": {"value": "4320", "holder": "Barnes & Wall", "year": 1959, "source": "https://cohn.mit.edu/kissing-numbers/"}
+    }
+  }
+}

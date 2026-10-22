@@ -1,0 +1,394 @@
+{
+  "generated": "2026-10-22T22:07:42Z",
+  "problems": {
+    "circle-packing": {
+      "n26": {
+        "status": "below",
+        "best_verified": "2.630713197527",
+        "holder": "ahmedmah987",
+        "file": "submissions/circle-packing/n26/starter-baseline.json",
+        "best_known_literature": "2.6359830849176068"
+      },
+      "n32": {
+        "status": "below",
+        "best_verified": "2.930479493591",
+        "holder": "ahmedmah987",
+        "file": "submissions/circle-packing/n32/starter-baseline.json",
+        "best_known_literature": "2.93957277120632294"
+      }
+    },
+    "kissing-number": {
+      "d8": {
+        "status": "ties",
+        "best_verified": "240",
+        "holder": "ahmedmah987",
+        "file": "submissions/kissing-number/d8/e8-roots.json",
+        "best_known_literature": "240"
+      },
+      "d9": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "306"
+      },
+      "d10": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "510"
+      },
+      "d11": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "604"
+      },
+      "d12": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "841"
+      },
+      "d13": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "1154"
+      },
+      "d14": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "1932"
+      },
+      "d15": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "2564"
+      },
+      "d16": {
+        "status": "open",
+        "best_verified": null,
+        "holder": null,
+        "file": null,
+        "best_known_literature": "4320"
+      }
+    },
+    "three-body-orbits": {
+      "equal-mass": {
+        "verified_orbits": 22,
+        "published": 22,
+        "orbits": [
+          {
+            "id": "O0001",
+            "tstar": 9.237682751,
+            "word": "123",
+            "power": 2,
+            "published_as": "I.A-1 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-1 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-9.2377.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0002",
+            "tstar": 19.93248854,
+            "word": "1213123",
+            "power": 2,
+            "published_as": "I.A-2 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-2 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-19.9325.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0003",
+            "tstar": 24.205550413,
+            "word": "1213213213123123",
+            "power": 1,
+            "published_as": "I.B-1 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.B-1 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-24.2056.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0004",
+            "tstar": 24.334388958,
+            "word": "1213213213123123",
+            "power": 1,
+            "published_as": "60digits line 27 (Hristov & Hristova 2024)",
+            "same_topology_as": [
+              "I.B-1 (Li & Liao 2017)"
+            ],
+            "satellite_of": "O0003",
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-24.3344.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0005",
+            "tstar": 29.602068575,
+            "word": "12131231213213213123",
+            "power": 1,
+            "published_as": "II.C-1 (Li & Liao 2017)",
+            "same_topology_as": [
+              "II.C-1 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-29.6021.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0006",
+            "tstar": 34.80218144,
+            "word": "121312312132131213213123",
+            "power": 1,
+            "published_as": "I.B-2 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.B-2 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-34.8022.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0007",
+            "tstar": 36.771416491,
+            "word": "121321321321323123123123",
+            "power": 1,
+            "published_as": "I.B-4 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.B-4 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-36.7714.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0008",
+            "tstar": 36.908979355,
+            "word": "123",
+            "power": 8,
+            "published_as": "60digits line 153 (Hristov & Hristova 2024)",
+            "same_topology_as": [],
+            "satellite_of": "O0001",
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-36.9090.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0009",
+            "tstar": 36.940012579,
+            "word": "123",
+            "power": 8,
+            "published_as": "60digits line 155 (Hristov & Hristova 2024)",
+            "same_topology_as": [],
+            "satellite_of": "O0001",
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-36.9400.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0010",
+            "tstar": 39.075193991,
+            "word": "1213213123123",
+            "power": 2,
+            "published_as": "I.A-4 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-4 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-39.0752.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0011",
+            "tstar": 39.644849302,
+            "word": "1212132131213213131231213123",
+            "power": 1,
+            "published_as": "60digits line 245 (Hristov & Hristova 2024)",
+            "same_topology_as": [
+              "I.B-3 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-39.6448.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0012",
+            "tstar": 49.630060559,
+            "word": "12131231213213123",
+            "power": 2,
+            "published_as": "I.A-5 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-5 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-49.6301.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0013",
+            "tstar": 49.643245576,
+            "word": "1121311312132131231213123121321312",
+            "power": 1,
+            "published_as": "II.C-3 (Li & Liao 2017)",
+            "same_topology_as": [
+              "II.C-3 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-49.6432.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0014",
+            "tstar": 53.856905113,
+            "word": "121321312312132132131231213213123123",
+            "power": 1,
+            "published_as": "I.B-6 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.B-6 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-53.8569.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0015",
+            "tstar": 55.203512996,
+            "word": "121321321321321321323123123123123123",
+            "power": 1,
+            "published_as": "I.B-7 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.B-7 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-55.2035.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0016",
+            "tstar": 57.728000596,
+            "word": "1213213213123123123",
+            "power": 2,
+            "published_as": "I.A-6 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-6 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-57.7280.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0017",
+            "tstar": 64.445450575,
+            "word": "12131231213213123121321312132131231213213123",
+            "power": 1,
+            "published_as": "I.B-9 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.B-9 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-64.4455.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0018",
+            "tstar": 64.651720819,
+            "word": "123",
+            "power": 14,
+            "published_as": "60digits line 6583 (Hristov & Hristova 2024)",
+            "same_topology_as": [],
+            "satellite_of": "O0001",
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-64.6517.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0019",
+            "tstar": 64.655422337,
+            "word": "123",
+            "power": 14,
+            "published_as": "60digits line 6589 (Hristov & Hristova 2024)",
+            "same_topology_as": [],
+            "satellite_of": "O0001",
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-64.6554.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0020",
+            "tstar": 68.6733914,
+            "word": "12132131231213213123123",
+            "power": 2,
+            "published_as": "I.A-8 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-8 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-68.6734.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0021",
+            "tstar": 73.655877847,
+            "word": "121321321321321321321321321321323123123123123123",
+            "power": 1,
+            "published_as": "II.C-10 (Li & Liao 2017)",
+            "same_topology_as": [
+              "II.C-10 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-73.6559.json",
+            "date": "9999"
+          },
+          {
+            "id": "O0022",
+            "tstar": 79.255483345,
+            "word": "121312312132131231213213123",
+            "power": 2,
+            "published_as": "I.A-10 (Li & Liao 2017)",
+            "same_topology_as": [
+              "I.A-10 (Li & Liao 2017)"
+            ],
+            "satellite_of": null,
+            "found_by": "ahmedmah987",
+            "file": "submissions/three-body-orbits/equal-mass/tstar-79.2555.json",
+            "date": "9999"
+          }
+        ]
+      }
+    }
+  }
+}

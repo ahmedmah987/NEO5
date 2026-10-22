@@ -1,0 +1,60 @@
+# The referee: judges every pull request that adds or changes a submission.
+#
+# Security model: the verifier code always comes from the base branch. From the pull request
+# we only copy submission files under submissions/, and those are parsed as JSON data,
+# never executed. A pull request that edits the verifiers cannot referee itself.
+name: referee
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  referee:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the base branch (trusted verifier code)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+
+      - name: Fetch the pull request
+        run: git fetch --no-tags origin "pull/${{ github.event.pull_request.number }}/head:pr-head"
+
+      - name: Collect the changed files
+        id: files
+        run: |
+          base="${{ github.event.pull_request.base.sha }}"
+          git diff --name-only --diff-filter=ACMR "$base"...pr-head > changed.txt
+          grep -E '^submissions/.+\.json$' changed.txt > submissions.txt || true
+          grep -vE '^submissions/.+\.json$' changed.txt > other.txt || true
+          echo "--- submissions"; cat submissions.txt; echo "--- other"; cat other.txt
+          # bring in the submitted data files only
+          while read -r f; do
+            mkdir -p "$(dirname "$f")"
+            git show "pr-head:$f" > "$f"
+          done < submissions.txt
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install the verifier
+        run: pip install -r requirements.txt
+
+      - name: Judge
+        run: |
+          python -m unsolved referee $(cat submissions.txt) --other $(cat other.txt) --report referee-report.md
+
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: referee-report
+          path: referee-report.md
+          if-no-files-found: ignore

@@ -1,0 +1,31 @@
+{
+  "slug": "circle-packing",
+  "title": "Circle packing: maximise the sum of radii",
+  "tagline": "Place n circles in a unit square, without overlap, so their radii add up to as much as possible",
+  "kind": "max",
+  "instance_header": "Circles",
+  "instances": {
+    "n26": {
+      "label": "n = 26",
+      "n": 26,
+      "best_known": {
+        "value": "2.6359830849176068",
+        "holder": "AlphaEvolve V2 (Georgiev, Gómez-Serrano, Tao, Wagner)",
+        "year": 2025,
+        "source": "https://arxiv.org/abs/2511.02864",
+        "note": "Published coordinates are tight to double precision (exact-arithmetic violations up to ~5e-17)."
+      }
+    },
+    "n32": {
+      "label": "n = 32",
+      "n": 32,
+      "best_known": {
+        "value": "2.93957277120632294",
+        "holder": "AlphaEvolve V2 (Georgiev, Gómez-Serrano, Tao, Wagner)",
+        "year": 2025,
+        "source": "https://arxiv.org/abs/2511.02864",
+        "note": "Published coordinates are tight to double precision."
+      }
+    }
+  }
+}

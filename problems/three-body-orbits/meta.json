@@ -1,0 +1,24 @@
+{
+  "slug": "three-body-orbits",
+  "title": "Three-body orbit atlas",
+  "tagline": "Find periodic solutions of Newton's three-body problem",
+  "kind": "atlas",
+  "instances": {
+    "equal-mass": {
+      "label": "equal masses (m1 = m2 = m3 = 1)",
+      "masses": ["1", "1", "1"],
+      "catalogues": [
+        {
+          "name": "Li & Liao 2017",
+          "path": "problems/three-body-orbits/catalogues/li_liao_2017.json",
+          "format": "json"
+        },
+        {
+          "name": "Hristov & Hristova 2024",
+          "path": "problems/three-body-orbits/catalogues/hristov_hristova_2024.tsv.gz",
+          "format": "tsv"
+        }
+      ]
+    }
+  }
+}

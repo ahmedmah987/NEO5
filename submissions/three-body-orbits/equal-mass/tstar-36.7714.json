@@ -1,0 +1,19 @@
+{
+  "problem": "three-body-orbits",
+  "instance": "equal-mass",
+  "author": {
+    "github": "ahmedmah987"
+  },
+  "method": {
+    "ai": true,
+    "tools": [
+      "Claude"
+    ],
+    "description": "random seeds + Levenberg-Marquardt shooting on (p1, p2, T)"
+  },
+  "solution": {
+    "p1": "0.08058422553783624",
+    "p2": "0.5888360897809573",
+    "T": "21.27233739713226"
+  }
+}
